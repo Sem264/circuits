@@ -98,4 +98,4 @@ sparseVector: .space 32
 #sparseVector: .asciiz "0,2,4,2"
 orderVector: .space 32
 valueVector: .space 16
-notZFound: .asciiz "Found not zero \n"
+
