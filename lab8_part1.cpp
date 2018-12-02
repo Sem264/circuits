@@ -24,6 +24,9 @@ class Stack{
         int getQueueIndex(){
             return queueIndex;
         }
+        ~Stack(){
+            free(LIFOQueue);
+        }
 };
 
 template<typename T>
